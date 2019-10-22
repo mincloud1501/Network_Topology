@@ -1,7 +1,7 @@
 # Network Topology Project
 [![STS4](https://img.shields.io/badge/Spring%20Tool%20Suite%204-Version%3A%204.4.0.RELEASE-green)](https://spring.io/tools)&nbsp;
 [![vis](https://img.shields.io/badge/vis.js-community%20edition-blue)](https://visjs.github.io/vis-network/examples/)&nbsp;
-![](https://img.shields.io/github/repo-size/mincloud1501/Network-Topology.svg?label=Repo%20size&style=flat-square)&nbsp;
+![](https://img.shields.io/github/repo-size/mincloud1501/Network_Topology.svg?label=Repo%20size&style=flat-square)&nbsp;
 
 ■ Goal: Spring Tool Suite4 Framework에서 Vis Open Source Script를 이용하여 Network Topology를 구현하고, 예상되는 이슈 사항을 도출하고자 함.
 
