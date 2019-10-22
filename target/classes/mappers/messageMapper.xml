@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mappers.messageMapper">
+
+	<insert id="create">
+		INSERT INTO TBL_MESSAGE (TARGETID,SENDER,MESSAGE)
+		VALUES (#{targetId},#{sender},#{message})
+	</insert>
+
+	<select id="readMessage" resultType="MessageVO">
+	SELECT * FROM TBL_MESSAGE WHERE MID = #{mId}
+	</select>
+	
+	<update id="updateState">
+	UPDATE TBL_MESSAGE SET OPENDATE = NOW() WHERE MID=#{mId}
+	</update>
+	
+</mapper>
+

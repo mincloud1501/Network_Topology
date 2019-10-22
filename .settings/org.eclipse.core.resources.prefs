@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/views/pages/chat.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/pages/gridview/auigridTest.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/pages/websocket.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/pages/ztree/ztree.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/test.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/user/login.jsp=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/resources=UTF-8
+encoding/<project>=UTF-8

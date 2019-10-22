@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!-- 매번 parameterType이나 resultType에 사용되는 클래스 이름을 "com.marshmellow.example"를 생략 가능 -->
+	<typeAliases>
+		<package name="com.marshmellow.example.VO" />
+	</typeAliases>
+</configuration>

@@ -1,0 +1,34 @@
+<html> <head>
+<script src="sweetalert.min.js"></script>
+<link rel="stylesheet" type="text/css" href="sweetalert.css">
+
+<script type="text/javascript">
+function onClickSimple()
+{ swal("Hello Sweet Alert"); } 
+
+function onClickSuccessAlert()
+{ swal({ title: "success!", text: "Here's my success message!", type: "success", confirmButtonText: "확인" }); }
+
+function onClickInfoAlert() { swal({ title: "info!", text: "Here's my info message!", type: "info", confirmButtonText: "확인" }, function(data) { console.log('ok'); }); }
+function onClickWarnAlert() { swal({ title: "warnning!", text: "Here's my warnning message!", type: "warning", confirmButtonText: "확인" }); }
+function onClickError() { swal({ title: "Error!", text: "Here's my error message!", type: "error", confirmButtonText: "확인" }); }
+function onClickAutoCloseAlert() { swal({ title: "Auto close alert!", text: "2초 뒤에 자동으로 닫힙니다.", timer: 2000, showConfirmButton: false }); }
+function onClickCustomIconAlert() { swal({ title: "Sweet!", text: "Here's a custom image.", imageUrl: "thumbs-up.jpg" }); }
+function onClickConfirm() { swal({ title: "Are you sure?", text: "You will not be able to recover this imaginary file!", type: "warning", showCancelButton: true, confirmButtonClass: 'btn-danger', confirmButtonText: 'Yes, delete it!', cancelButtonText: "No, cancel plx!", closeOnConfirm: false, closeOnCancel: false }, function (isConfirm) { if (isConfirm) { swal("Deleted!", "Your imaginary file has been deleted!", "success"); } else { swal("Cancelled", "Your imaginary file is safe :)", "error"); } }); }
+function onClickHtmlAlert() { swal({ title: "HTML <small>Title</small>!", text: "A custom <span style='color:#F8BB86'>html<span> message.", html: true }); }
+function onLoad() { }
+</script>
+</head>
+
+<body onload="onLoad()">
+<button onclick="onClickSimple()">simple alert</button><br/>
+<button onclick="onClickInfoAlert()">info alert</button><br/>
+<button onclick="onClickWarnAlert()">warnning alert</button><br/>
+<button onclick="onClickSuccessAlert()">success alert</button><br/>
+<button onclick="onClickError()">error alert</button><br/>
+<button onclick="onClickAutoCloseAlert()">auto close alert</button><br/>
+<button onclick="onClickCustomIconAlert()">custom icon alert</button><br/>
+<button onclick="onClickHtmlAlert()">html alert</button><br/>
+<button onclick="onClickConfirm()">confirm alert</button><br/>
+</body>
+</html>

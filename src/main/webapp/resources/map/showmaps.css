@@ -1,0 +1,46 @@
+path { stroke-linecap:round; stroke-linejoin:round;
+}
+.reloadButton {
+ border: solid 1px #000; width: auto; color: #000; background-color: #fff;
+ padding: 5px 7px; font-weight: bold; border-radius: 6px;
+ position: absolute; top: 20px; left: 20px;
+}
+.reloadButton:hover {
+ border: solid 1px #f00; color: #fff; background-color: #000066; cursor: pointer;
+}
+svg#legendsForKoreaMap { width: 130px; height: 60px; border: 0; margin: 0; padding: 0;
+ position: absolute; top: 20px; left: 450px; border-radius: 10px;
+ background: rgba(255, 255, 255, 0.6);
+}
+svg#legendsForKoreaMap text { 
+ fill: #000000; stroke: #000000; font-family: "Nanum Gothic";
+ font-size: 10px; text-anchor: left; font-weight: bold; stroke-width: 0;
+}
+svg { width: 580px; height: 580px; margin: 0px auto 5px;
+ border: solid 2px #09f; border-radius: 10px;
+}
+#river #hanriver { fill: #00ffff; opacity: 0.3;
+}
+#mapShow .municipality { fill: #ccffcc; stroke: #333; stroke-width: 1px; fill-opacity: 1; stroke-opacity: 0.5;
+}
+#mapShow .municipality-label {
+ fill: #000000; font-size: 12px; font-weight: 500; text-anchor: middle; pointer-events: none;
+}
+#mapShow .placeCircle { fill: #ffff00; stroke: #0000ff; opacity: 0.8; stroke-width: 1px;
+}
+#mapShow .placeName {
+display: none; fill: #000000;
+font-family: "Nanum Gothic"; font-size: 10px; text-anchor: middle; font-weight: bold;
+stroke-width: 0.2px; stroke: #ffff00;
+}
+#mapShow path { fill: #ccffcc; stroke: #0066cc; stroke-width: 0.5px;
+}
+/* #mapShow path:hover { fill: #ffcc00; } */
+#mapShow text { font-family: "Nanum Gothic"; font-size: 10px; pointer-events: none;
+}
+#koreaMap #elecrail path { fill: none; stroke: #ff9900; stroke-width: 0.5px; opacity: 0.95;
+}
+#koreaMap #road path { fill: none; stroke: #000000; stroke-width: 3px; opacity: 0.2;
+}
+#koreaMap #maps #path-99 { fill: #eeffff;
+}
